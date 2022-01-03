@@ -1,0 +1,55 @@
+PODS:
+  - BLE (1.0.0):
+    - Bluejay
+    - PromiseKit (~> 6.8.3)
+    - XCGLogger (~> 6.1.0)
+    - ZIPFoundation (~> 0.9.9)
+  - Bluejay (0.8.9)
+  - ObjcExceptionBridging (1.0.1):
+    - ObjcExceptionBridging/ObjcExceptionBridging (= 1.0.1)
+  - ObjcExceptionBridging/ObjcExceptionBridging (1.0.1)
+  - PromiseKit (6.8.5):
+    - PromiseKit/CorePromise (= 6.8.5)
+    - PromiseKit/Foundation (= 6.8.5)
+    - PromiseKit/UIKit (= 6.8.5)
+  - PromiseKit/CorePromise (6.8.5)
+  - PromiseKit/Foundation (6.8.5):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (6.8.5):
+    - PromiseKit/CorePromise
+  - XCGLogger (6.1.0):
+    - XCGLogger/Core (= 6.1.0)
+  - XCGLogger/Core (6.1.0):
+    - ObjcExceptionBridging
+  - ZIPFoundation (0.9.13)
+
+DEPENDENCIES:
+  - BLE (from `../`)
+  - Bluejay
+  - PromiseKit (~> 6.8.3)
+  - XCGLogger (~> 6.1.0)
+  - ZIPFoundation (~> 0.9.9)
+
+SPEC REPOS:
+  trunk:
+    - Bluejay
+    - ObjcExceptionBridging
+    - PromiseKit
+    - XCGLogger
+    - ZIPFoundation
+
+EXTERNAL SOURCES:
+  BLE:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BLE: 3b4a3d47f36dffd74c6ec38a0ae75cea6bb5e69e
+  Bluejay: 2dd1e38c0b3bb02c931c0c10d380887230b09a33
+  ObjcExceptionBridging: c30e00eb3700467e695faeea30e26e18bd445001
+  PromiseKit: 9616b0afef31eae56ab9ce044c8ec2b8612a15cd
+  XCGLogger: 7f7f43f15dfe3a305fa1342b7dc29af656289abd
+  ZIPFoundation: ae5b4b813d216d3bf0a148773267fff14bd51d37
+
+PODFILE CHECKSUM: ff468b16edb4e3b2cd9120670a7e4d4b4f51bbdd
+
+COCOAPODS: 1.11.2

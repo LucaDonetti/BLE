@@ -1,0 +1,11 @@
+use_frameworks!
+platform :ios, '12.1'
+
+target 'BLE_Tests' do
+  
+  pod 'BLE', :path => '../'
+  pod 'Bluejay'
+  pod 'PromiseKit', '~> 6.8.3'
+  pod 'XCGLogger',  '~> 6.1.0'
+  pod 'ZIPFoundation', '~> 0.9.9'
+end
