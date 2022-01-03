@@ -438,7 +438,7 @@
 		8F6ED4122782F60200D3F20D /* BLESendable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLESendable.swift; sourceTree = "<group>"; };
 		8F6ED4132782F60200D3F20D /* BLEReadable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLEReadable.swift; sourceTree = "<group>"; };
 		8F6ED4142782F60200D3F20D /* String+ZehusPrefix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+ZehusPrefix.swift"; sourceTree = "<group>"; };
-		8F6ED4152782F60200D3F20D /* CommandReply.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommandReply.swift; sourceTree = "<group>"; };
+		8F6ED4152782F60200D3F20D /* CommReply.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommReply.swift; sourceTree = "<group>"; };
 		8F6ED4162782F60200D3F20D /* DFUOTAUpdater.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DFUOTAUpdater.swift; sourceTree = "<group>"; };
 		8F6ED4172782F60200D3F20D /* Bluejay+Promise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bluejay+Promise.swift"; sourceTree = "<group>"; };
 		8F6ED4182782F60200D3F20D /* BLEConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLEConstant.swift; sourceTree = "<group>"; };
@@ -462,6 +462,30 @@
 		8F6ED42E2782F60200D3F20D /* KickScooterPowerMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KickScooterPowerMode.swift; sourceTree = "<group>"; };
 		8F6ED42F2782F60200D3F20D /* Ride.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ride.swift; sourceTree = "<group>"; };
 		8F6ED4302782F60200D3F20D /* BLEConstant-Bike.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BLEConstant-Bike.swift"; sourceTree = "<group>"; };
+		8F6ED470278314BF00D3F20D /* BLEConstant-Production.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BLEConstant-Production.swift"; sourceTree = "<group>"; };
+		8F6ED471278314BF00D3F20D /* BLEProcedure-Production.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BLEProcedure-Production.swift"; sourceTree = "<group>"; };
+		8F6ED473278314BF00D3F20D /* RawPacket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RawPacket.swift; sourceTree = "<group>"; };
+		8F6ED475278314BF00D3F20D /* StaticTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StaticTest.swift; sourceTree = "<group>"; };
+		8F6ED476278314BF00D3F20D /* Packets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Packets.swift; sourceTree = "<group>"; };
+		8F6ED477278314BF00D3F20D /* Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		8F6ED479278314BF00D3F20D /* RemoteThrottle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteThrottle.swift; sourceTree = "<group>"; };
+		8F6ED47A278314BF00D3F20D /* Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		8F6ED47B278314BF00D3F20D /* DynamicTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicTest.swift; sourceTree = "<group>"; };
+		8F6ED47C278314BF00D3F20D /* Commands.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Commands.swift; sourceTree = "<group>"; };
+		8F6ED47D278314BF00D3F20D /* BluetoothSwitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluetoothSwitch.swift; sourceTree = "<group>"; };
+		8F6ED47E278314BF00D3F20D /* TestAbstraction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestAbstraction.swift; sourceTree = "<group>"; };
+		8F6ED47F278314BF00D3F20D /* BLEName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLEName.swift; sourceTree = "<group>"; };
+		8F6ED480278314BF00D3F20D /* BTObservers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BTObservers.swift; sourceTree = "<group>"; };
+		8F6ED481278314BF00D3F20D /* TestBench.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestBench.swift; sourceTree = "<group>"; };
+		8F6ED482278314BF00D3F20D /* TestThreshold.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestThreshold.swift; sourceTree = "<group>"; };
+		8F6ED483278314BF00D3F20D /* CollectionPacketBuffer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionPacketBuffer.swift; sourceTree = "<group>"; };
+		8F6ED485278314BF00D3F20D /* RemoteError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteError.swift; sourceTree = "<group>"; };
+		8F6ED486278314BF00D3F20D /* Remote-BLEProcedure-Production.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Remote-BLEProcedure-Production.swift"; sourceTree = "<group>"; };
+		8F6ED487278314BF00D3F20D /* RemoteTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteTest.swift; sourceTree = "<group>"; };
+		8F6ED488278314BF00D3F20D /* RemoteTestAbstract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteTestAbstract.swift; sourceTree = "<group>"; };
+		8F6ED489278314BF00D3F20D /* RemotePacket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemotePacket.swift; sourceTree = "<group>"; };
+		8F6ED48A278314BF00D3F20D /* RemoteTestThresholds.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteTestThresholds.swift; sourceTree = "<group>"; };
+		8F6ED48B278314BF00D3F20D /* Production_BLE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Production_BLE.h; sourceTree = "<group>"; };
 		9026BF0304DA9C72F19A9262F5D22F86 /* BackgroundRestoreMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BackgroundRestoreMode.swift; path = Bluejay/Bluejay/BackgroundRestoreMode.swift; sourceTree = "<group>"; };
 		90C628FBEF5B081F3526745E7E2023FB /* Box.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Box.swift; path = Sources/Box.swift; sourceTree = "<group>"; };
 		9133D15EDD56F620822806EA47E7052E /* PromiseKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PromiseKit.h; path = Sources/PromiseKit.h; sourceTree = "<group>"; };
@@ -639,6 +663,7 @@
 			children = (
 				8F6ED3C42782F60200D3F20D /* Common */,
 				8F6ED4202782F60200D3F20D /* Configuration */,
+				8F6ED46F278314BF00D3F20D /* Configuration_Prod */,
 				F704AF79AEADD9DD8BA6B655207B4067 /* Pod */,
 				A55624564B56753192B77BE59FACE25C /* Support Files */,
 			);
@@ -869,7 +894,7 @@
 				8F6ED4122782F60200D3F20D /* BLESendable.swift */,
 				8F6ED4132782F60200D3F20D /* BLEReadable.swift */,
 				8F6ED4142782F60200D3F20D /* String+ZehusPrefix.swift */,
-				8F6ED4152782F60200D3F20D /* CommandReply.swift */,
+				8F6ED4152782F60200D3F20D /* CommReply.swift */,
 				8F6ED4162782F60200D3F20D /* DFUOTAUpdater.swift */,
 				8F6ED4172782F60200D3F20D /* Bluejay+Promise.swift */,
 				8F6ED4182782F60200D3F20D /* BLEConstant.swift */,
@@ -1151,6 +1176,70 @@
 				8F6ED42F2782F60200D3F20D /* Ride.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		8F6ED46F278314BF00D3F20D /* Configuration_Prod */ = {
+			isa = PBXGroup;
+			children = (
+				8F6ED470278314BF00D3F20D /* BLEConstant-Production.swift */,
+				8F6ED471278314BF00D3F20D /* BLEProcedure-Production.swift */,
+				8F6ED472278314BF00D3F20D /* CANPacket */,
+				8F6ED474278314BF00D3F20D /* Model */,
+				8F6ED48B278314BF00D3F20D /* Production_BLE.h */,
+			);
+			name = Configuration_Prod;
+			path = Classes/Configuration_Prod;
+			sourceTree = "<group>";
+		};
+		8F6ED472278314BF00D3F20D /* CANPacket */ = {
+			isa = PBXGroup;
+			children = (
+				8F6ED473278314BF00D3F20D /* RawPacket.swift */,
+			);
+			path = CANPacket;
+			sourceTree = "<group>";
+		};
+		8F6ED474278314BF00D3F20D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8F6ED475278314BF00D3F20D /* StaticTest.swift */,
+				8F6ED476278314BF00D3F20D /* Packets.swift */,
+				8F6ED477278314BF00D3F20D /* Test.swift */,
+				8F6ED478278314BF00D3F20D /* RemoteThrottle */,
+				8F6ED47A278314BF00D3F20D /* Error.swift */,
+				8F6ED47B278314BF00D3F20D /* DynamicTest.swift */,
+				8F6ED47C278314BF00D3F20D /* Commands.swift */,
+				8F6ED47D278314BF00D3F20D /* BluetoothSwitch.swift */,
+				8F6ED47E278314BF00D3F20D /* TestAbstraction.swift */,
+				8F6ED47F278314BF00D3F20D /* BLEName.swift */,
+				8F6ED480278314BF00D3F20D /* BTObservers.swift */,
+				8F6ED481278314BF00D3F20D /* TestBench.swift */,
+				8F6ED482278314BF00D3F20D /* TestThreshold.swift */,
+				8F6ED483278314BF00D3F20D /* CollectionPacketBuffer.swift */,
+				8F6ED484278314BF00D3F20D /* Remote */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8F6ED478278314BF00D3F20D /* RemoteThrottle */ = {
+			isa = PBXGroup;
+			children = (
+				8F6ED479278314BF00D3F20D /* RemoteThrottle.swift */,
+			);
+			path = RemoteThrottle;
+			sourceTree = "<group>";
+		};
+		8F6ED484278314BF00D3F20D /* Remote */ = {
+			isa = PBXGroup;
+			children = (
+				8F6ED485278314BF00D3F20D /* RemoteError.swift */,
+				8F6ED486278314BF00D3F20D /* Remote-BLEProcedure-Production.swift */,
+				8F6ED487278314BF00D3F20D /* RemoteTest.swift */,
+				8F6ED488278314BF00D3F20D /* RemoteTestAbstract.swift */,
+				8F6ED489278314BF00D3F20D /* RemotePacket.swift */,
+				8F6ED48A278314BF00D3F20D /* RemoteTestThresholds.swift */,
+			);
+			path = Remote;
 			sourceTree = "<group>";
 		};
 		94FD08E6CE5F2D0688B569BC9F8FA7F9 /* ObjcExceptionBridging */ = {
