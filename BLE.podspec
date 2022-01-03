@@ -29,8 +29,6 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '12.1'
 
   s.source_files = 'Classes/**/*'
-  
-  s.swift_version= '5.0'
 
   s.frameworks = 'Foundation'
   

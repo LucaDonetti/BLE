@@ -456,7 +456,6 @@
 		8F6ED4272782F60200D3F20D /* BikeParameters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BikeParameters.swift; sourceTree = "<group>"; };
 		8F6ED4282782F60200D3F20D /* BikePlusPowerMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BikePlusPowerMode.swift; sourceTree = "<group>"; };
 		8F6ED4292782F60200D3F20D /* BikePowerMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BikePowerMode.swift; sourceTree = "<group>"; };
-		8F6ED42A2782F60200D3F20D /* CommandReply.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommandReply.swift; sourceTree = "<group>"; };
 		8F6ED42B2782F60200D3F20D /* Faults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Faults.swift; sourceTree = "<group>"; };
 		8F6ED42C2782F60200D3F20D /* EolData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EolData.swift; sourceTree = "<group>"; };
 		8F6ED42D2782F60200D3F20D /* BikeMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BikeMode.swift; sourceTree = "<group>"; };
@@ -1145,7 +1144,6 @@
 				8F6ED4272782F60200D3F20D /* BikeParameters.swift */,
 				8F6ED4282782F60200D3F20D /* BikePlusPowerMode.swift */,
 				8F6ED4292782F60200D3F20D /* BikePowerMode.swift */,
-				8F6ED42A2782F60200D3F20D /* CommandReply.swift */,
 				8F6ED42B2782F60200D3F20D /* Faults.swift */,
 				8F6ED42C2782F60200D3F20D /* EolData.swift */,
 				8F6ED42D2782F60200D3F20D /* BikeMode.swift */,

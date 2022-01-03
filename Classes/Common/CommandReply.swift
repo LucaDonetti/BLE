@@ -31,3 +31,12 @@ public extension Common {
         }
     }
 }
+
+extension Bike {
+    struct CommandReply: Receivable {
+        let reply: UInt8
+        public init(bluetoothData: Data) throws {
+            self.reply = try bluetoothData.extract(start: 1, length: 1)
+        }
+    }
+}
