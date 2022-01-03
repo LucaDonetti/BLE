@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-               BuildableName = "BLE_Example.app"
-               BlueprintName = "BLE_Example"
-               ReferencedContainer = "container:BLE.xcodeproj">
+               BuildableName = "BikeBLE_Example.app"
+               BlueprintName = "BikeBLE_Example"
+               ReferencedContainer = "container:BikeBLE.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "607FACE41AFB9204008FA782"
-               BuildableName = "BLE_Tests.xctest"
-               BlueprintName = "BLE_Tests"
-               ReferencedContainer = "container:BLE.xcodeproj">
+               BuildableName = "BikeBLE_Tests.xctest"
+               BlueprintName = "BikeBLE_Tests"
+               ReferencedContainer = "container:BikeBLE.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -48,9 +48,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "607FACE41AFB9204008FA782"
-               BuildableName = "BLE_Tests.xctest"
-               BlueprintName = "BLE_Tests"
-               ReferencedContainer = "container:BLE.xcodeproj">
+               BuildableName = "BikeBLE_Tests.xctest"
+               BlueprintName = "BikeBLE_Tests"
+               ReferencedContainer = "container:BikeBLE.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -58,9 +58,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "BLE_Example.app"
-            BlueprintName = "BLE_Example"
-            ReferencedContainer = "container:BLE.xcodeproj">
+            BuildableName = "BikeBLE_Example.app"
+            BlueprintName = "BikeBLE_Example"
+            ReferencedContainer = "container:BikeBLE.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -82,9 +82,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "BLE_Example.app"
-            BlueprintName = "BLE_Example"
-            ReferencedContainer = "container:BLE.xcodeproj">
+            BuildableName = "BikeBLE_Example.app"
+            BlueprintName = "BikeBLE_Example"
+            ReferencedContainer = "container:BikeBLE.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -101,9 +101,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "BLE_Example.app"
-            BlueprintName = "BLE_Example"
-            ReferencedContainer = "container:BLE.xcodeproj">
+            BuildableName = "BikeBLE_Example.app"
+            BlueprintName = "BikeBLE_Example"
+            ReferencedContainer = "container:BikeBLE.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

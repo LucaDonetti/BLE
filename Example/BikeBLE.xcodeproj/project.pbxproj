@@ -7,20 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2060A20CFFABF392555ACDD1 /* Pods_BLE_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CE0DBB3DFB14C1D41343849 /* Pods_BLE_Tests.framework */; };
+		264A57E64643F3B5CC74F436 /* Pods_BikeBLE_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83399A725D2B9871A1A1F2A7 /* Pods_BikeBLE_Tests.framework */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2233388736928AE09E65F8C9 /* Pods-BLE_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BLE_Tests.release.xcconfig"; path = "Target Support Files/Pods-BLE_Tests/Pods-BLE_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		26CB12913A1770C387E74742 /* Pods-BLE_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BLE_Tests.debug.xcconfig"; path = "Target Support Files/Pods-BLE_Tests/Pods-BLE_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		4CE0DBB3DFB14C1D41343849 /* Pods_BLE_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BLE_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		607FACE51AFB9204008FA782 /* BLE_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BLE_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		08191FD04E45E3F4F8172387 /* BikeBLE.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BikeBLE.podspec; path = ../BikeBLE.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3CCDDE096E155027F23741D1 /* Pods-BikeBLE_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BikeBLE_Tests.release.xcconfig"; path = "Target Support Files/Pods-BikeBLE_Tests/Pods-BikeBLE_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		607FACE51AFB9204008FA782 /* BikeBLE_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BikeBLE_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		A524679EE5A06CD047A5B9D4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		E19327A7AE8F55DDF4BA7BE1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		FD8262D69DE848FB604B769F /* BLE.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BLE.podspec; path = ../BLE.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7EE73D575D69DAA49DEB28FE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		83399A725D2B9871A1A1F2A7 /* Pods_BikeBLE_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BikeBLE_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3C7BE3624D2B92B1ED91891 /* Pods-BikeBLE_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BikeBLE_Tests.debug.xcconfig"; path = "Target Support Files/Pods-BikeBLE_Tests/Pods-BikeBLE_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		AB8A800488E0C46AB7855B93 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -28,28 +28,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2060A20CFFABF392555ACDD1 /* Pods_BLE_Tests.framework in Frameworks */,
+				264A57E64643F3B5CC74F436 /* Pods_BikeBLE_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		50C5C571E63F4589CA72967D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				83399A725D2B9871A1A1F2A7 /* Pods_BikeBLE_Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
-				DBD3682C725355E82FE9E3C0 /* Pods */,
-				954AD8E4F5D7A0E8FED8EAF1 /* Frameworks */,
+				DA160EED070EED819C1613A1 /* Pods */,
+				50C5C571E63F4589CA72967D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		607FACD11AFB9204008FA782 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				607FACE51AFB9204008FA782 /* BLE_Tests.xctest */,
+				607FACE51AFB9204008FA782 /* BikeBLE_Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -74,26 +82,18 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				FD8262D69DE848FB604B769F /* BLE.podspec */,
-				E19327A7AE8F55DDF4BA7BE1 /* README.md */,
-				A524679EE5A06CD047A5B9D4 /* LICENSE */,
+				08191FD04E45E3F4F8172387 /* BikeBLE.podspec */,
+				7EE73D575D69DAA49DEB28FE /* README.md */,
+				AB8A800488E0C46AB7855B93 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		954AD8E4F5D7A0E8FED8EAF1 /* Frameworks */ = {
+		DA160EED070EED819C1613A1 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4CE0DBB3DFB14C1D41343849 /* Pods_BLE_Tests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		DBD3682C725355E82FE9E3C0 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				26CB12913A1770C387E74742 /* Pods-BLE_Tests.debug.xcconfig */,
-				2233388736928AE09E65F8C9 /* Pods-BLE_Tests.release.xcconfig */,
+				A3C7BE3624D2B92B1ED91891 /* Pods-BikeBLE_Tests.debug.xcconfig */,
+				3CCDDE096E155027F23741D1 /* Pods-BikeBLE_Tests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -101,23 +101,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		607FACE41AFB9204008FA782 /* BLE_Tests */ = {
+		607FACE41AFB9204008FA782 /* BikeBLE_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "BLE_Tests" */;
+			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "BikeBLE_Tests" */;
 			buildPhases = (
-				35C06A8F20A1F376D4627AEA /* [CP] Check Pods Manifest.lock */,
+				FF41903506855E7368D69F95 /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
-				147394AFF24C251189EE99BE /* [CP] Embed Pods Frameworks */,
+				384DE982016C4EB2AA857262 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = BLE_Tests;
+			name = BikeBLE_Tests;
 			productName = Tests;
-			productReference = 607FACE51AFB9204008FA782 /* BLE_Tests.xctest */;
+			productReference = 607FACE51AFB9204008FA782 /* BikeBLE_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -132,13 +132,12 @@
 				TargetAttributes = {
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						DevelopmentTeam = L3D49W523N;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
 			};
-			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "BLE" */;
+			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "BikeBLE" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -152,7 +151,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				607FACE41AFB9204008FA782 /* BLE_Tests */,
+				607FACE41AFB9204008FA782 /* BikeBLE_Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -168,13 +167,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		147394AFF24C251189EE99BE /* [CP] Embed Pods Frameworks */ = {
+		384DE982016C4EB2AA857262 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-BLE_Tests/Pods-BLE_Tests-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-BikeBLE_Tests/Pods-BikeBLE_Tests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Bluejay/Bluejay.framework",
 				"${BUILT_PRODUCTS_DIR}/ObjcExceptionBridging/ObjcExceptionBridging.framework",
 				"${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework",
@@ -191,10 +190,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BLE_Tests/Pods-BLE_Tests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BikeBLE_Tests/Pods-BikeBLE_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		35C06A8F20A1F376D4627AEA /* [CP] Check Pods Manifest.lock */ = {
+		FF41903506855E7368D69F95 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -209,7 +208,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-BLE_Tests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-BikeBLE_Tests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -275,7 +274,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -321,7 +320,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -331,9 +330,8 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 26CB12913A1770C387E74742 /* Pods-BLE_Tests.debug.xcconfig */;
+			baseConfigurationReference = A3C7BE3624D2B92B1ED91891 /* Pods-BikeBLE_Tests.debug.xcconfig */;
 			buildSettings = {
-				DEVELOPMENT_TEAM = L3D49W523N;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -348,15 +346,14 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BLE_Example.app/BLE_Example";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BikeBLE_Example.app/BikeBLE_Example";
 			};
 			name = Debug;
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2233388736928AE09E65F8C9 /* Pods-BLE_Tests.release.xcconfig */;
+			baseConfigurationReference = 3CCDDE096E155027F23741D1 /* Pods-BikeBLE_Tests.release.xcconfig */;
 			buildSettings = {
-				DEVELOPMENT_TEAM = L3D49W523N;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -367,14 +364,14 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BLE_Example.app/BLE_Example";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BikeBLE_Example.app/BikeBLE_Example";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "BLE" */ = {
+		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "BikeBLE" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				607FACED1AFB9204008FA782 /* Debug */,
@@ -383,7 +380,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "BLE_Tests" */ = {
+		607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "BikeBLE_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				607FACF31AFB9204008FA782 /* Debug */,

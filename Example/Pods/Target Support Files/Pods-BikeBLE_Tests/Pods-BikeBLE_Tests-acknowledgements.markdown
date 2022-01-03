@@ -1,7 +1,7 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
-## BLE
+## BikeBLE
 
 Copyright (c) 2022 luca.donetti@akka.eu <luca.donetti@akka.eu>
 

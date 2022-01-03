@@ -1,0 +1,6 @@
+framework module BikeBLE {
+  umbrella header "BikeBLE-umbrella.h"
+
+  export *
+  module * { export * }
+}

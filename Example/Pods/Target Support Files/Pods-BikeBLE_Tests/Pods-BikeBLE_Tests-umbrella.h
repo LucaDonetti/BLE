@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double BLEVersionNumber;
-FOUNDATION_EXPORT const unsigned char BLEVersionString[];
+FOUNDATION_EXPORT double Pods_BikeBLE_TestsVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_BikeBLE_TestsVersionString[];
 

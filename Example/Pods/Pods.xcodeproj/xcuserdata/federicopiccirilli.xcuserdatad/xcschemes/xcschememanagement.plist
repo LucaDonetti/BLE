@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>BLE.xcscheme</key>
+		<key>BikeBLE.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -19,7 +19,7 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-BLE_Tests.xcscheme</key>
+		<key>Pods-BikeBLE_Tests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
